@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+</head>
+<body>
+  <div class="canvas">
+    <section class="result">
+      <h2 class="result-title">Your Result</h2>
+      <div class="scores">
+        <span class="score-value">76</span>
+        <span class="score-total">of 100</span>
+      </div>
+      <span class="result-status">Great</span>
+      <span class="result-description">You scored higher than 65% of the people who have taken these tests.</span>
+    </section>
+    <section class="summary">
+      <span class="summary-title">Summary</span>
+      <div class="parameters">
+        <div id="reaction" class="parameter">
+          <img class="paricon" src="assets/images/icon-reaction.svg" alt="reaction">
+          <span class="parname">Reaction</span>
+          <div class="parvalue">
+            <span class="value">0</span>
+            <span class="total">/ 100</span>
+          </div>
+        </div>
+        <div id="memory" class="parameter">
+          <img class="paricon" src="assets/images/icon-memory.svg" alt="memory">
+          <span class="parname">Memory</span>
+          <div class="parvalue">
+            <span class="value">0</span>
+            <span class="total">/ 100</span>
+          </div>
+        </div>
+        <div id="verbal" class="parameter">
+          <img class="paricon" src="assets/images/icon-verbal.svg" alt="verbal">
+          <span class="parname">Verbal</span>
+          <div class="parvalue">
+            <span class="value">0</span>
+            <span class="total">/ 100</span>
+          </div>
+        </div>
+        <div id="visual" class="parameter">
+          <img class="paricon" src="assets/images/icon-visual.svg" alt="visual">
+          <span class="parname">Visual</span>
+          <div class="parvalue">
+            <span class="value">0</span>
+            <span class="total">/ 100</span>
+          </div>
+        </div>
+      </div>
+      <button class="continuebtn" type="button">Continue</button>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
